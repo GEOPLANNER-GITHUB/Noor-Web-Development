@@ -151,3 +151,19 @@ padding-right: 5px;
         height: 20px;
         padding-right: 5px;
         }
+        /* feature-part1 */
+
+        .remarks{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+        }
+
+        .remarks>.left>.feature-part1{
+            display:flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .remarks>.right>img{
+            width: 100%;
+        }
